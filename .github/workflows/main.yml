@@ -1,6 +1,7 @@
 name: Vuln
 
 on:
+  pull_request_target:
   issues:
     types: [opened]
 
